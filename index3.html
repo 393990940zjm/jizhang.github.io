@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-table.min.css"/>
+	<link rel="stylesheet" href="css/index3.css" />
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/echarts.min.js"></script>
+	<script src="js/bootstrap-table.min.js"></script>
+	<script src="js/bootstrap-table-zh-CN.js"></script>
+	<body>
+		<div class="search" >
+			<span>日期：</span>
+			<input type="text" value="2018-07-21" />
+			<span>--</span>
+			<input type="text" value="2018-07-21" style="margin-right: 20px;"/> 
+			<span>类型：</span>
+			<select style="margin-right: 20px;"  ><option>全部类型</option><option>收入</option><option>支出</option></select>
+			<span>姓名：</span>
+			<select><option>全部人员</option><option>张三</option><option>李四</option></select>
+		</div>
+		<div class="bank" >
+			<div class="bank_1" >
+				<table class="table table-bordered " id="zdmx" ></table>
+			</div>
+			<div class="bank_2" >
+				<div class="bank_21" >
+					<div>
+						<p>姓名：张三 &nbsp;&nbsp;&nbsp;&nbsp;支出：5468.85 &nbsp;&nbsp;&nbsp;&nbsp; 收入：75551.17</p>
+						<p>姓名：李四&nbsp;&nbsp;&nbsp;&nbsp; 支出：895.75   &nbsp;&nbsp;&nbsp;&nbsp;收入：9542.48</p>
+					</div>
+				</div>
+				<div class="bank_22" id="echats" ></div>
+			</div>
+		</div>
+		<a href="index.html" style="position: fixed;bottom: 50px;right: 50px;background: gray;height: 30px;color: #fff;line-height: 30px;" >&nbsp;点击跳转下个页面&nbsp;</a>
+	</body>
+	<script type="text/javascript" src="js/index3.js" ></script>
+</html>

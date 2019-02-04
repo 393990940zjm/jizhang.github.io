@@ -1,85 +1,60 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8">
 		<title></title>
+		<!--<link rel="stylesheet" href="bootstrap.min.css" />-->
+		<link rel="stylesheet" href="new_file.css" />
 	</head>
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/index.css" />
-	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/echarts.min.js"></script>
-	<script src="js/bootstrap-table.min.js"></script>
-	<script src="js/bootstrap-table-zh-CN.js"></script>
 	<body>
-		<div class="bank" >
-			<div class="bank_1 color" >
-				<div class="bank_11" ><div>用户姓名：</div><div>xxx</div></div>
-				<div class="bank_12" ><div>可用余额：</div><div>123645.14</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>累计支出：</div><div>123545.25</div></div>
-				<div class="bank_12 color" ><div>累计收入：</div><div>258381.57</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>今年支出：</div><div>21456.14</div></div>
-				<div class="bank_12 color" ><div>今年收入：</div><div>2518.78</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>本月支出：</div><div>215.89</div></div>
-				<div class="bank_12 color" ><div>本月收入：</div><div>123456</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>今日支出：</div><div>11.58</div></div>
-				<div class="bank_12 color" ><div>今日收入：</div><div>0</div></div>
-			</div>
-		</div>
-		<div class="bank" >
-			<div class="bank_1 color" >
-				<div class="bank_11" ><div>用户姓名：</div><div>xxx</div></div>
-				<div class="bank_12" ><div>可用余额：</div><div>123645.14</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>累计支出：</div><div>123545.25</div></div>
-				<div class="bank_12 color" ><div>累计收入：</div><div>258381.57</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>今年支出：</div><div>21456.14</div></div>
-				<div class="bank_12 color" ><div>今年收入：</div><div>2518.78</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>本月支出：</div><div>215.89</div></div>
-				<div class="bank_12 color" ><div>本月收入：</div><div>123456</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>今日支出：</div><div>11.58</div></div>
-				<div class="bank_12 color" ><div>今日收入：</div><div>0</div></div>
-			</div>
-		</div>
-		<div class="bank" >
-			<div class="bank_1 color" >
-				<div class="bank_11" ><div>用户姓名：</div><div>全部</div></div>
-				<div class="bank_12" ><div>可用余额：</div><div>123645.14</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>累计支出：</div><div>123545.25</div></div>
-				<div class="bank_12 color" ><div>累计收入：</div><div>258381.57</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>今年支出：</div><div>21456.14</div></div>
-				<div class="bank_12 color" ><div>今年收入：</div><div>2518.78</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>本月支出：</div><div>215.89</div></div>
-				<div class="bank_12 color" ><div>本月收入：</div><div>123456</div></div>
-			</div>
-			<div class="bank_1" >
-				<div class="bank_11 color" ><div>今日支出：</div><div>11.58</div></div>
-				<div class="bank_12 color" ><div>今日收入：</div><div>0</div></div>
+		<div class="content" >
+			
+		<p class="headP" >新春大抽奖</p>
+		<table>
+			<tr>
+				<td>
+					<button type="button" class="btn btns" onclick="cj(this,0)" ><p>祝</p></button>
+				</td>
+				<td>
+					<button type="button" class="btn btns" onclick="cj(this,1)"  ><p>猪</p></button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="button" class="btn btns" onclick="cj(this,2)"  ><p>宋</p></button>
+				</td>
+				<td>
+					<button type="button" class="btn btns" onclick="cj(this,3)" ><p>年</p></button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="button" class="btn btns" onclick="cj(this,4)" ><p>盈</p></button>
+				</td>
+				<td>
+					<button type="button" class="btn btns" onclick="cj(this,5)" ><p>大</p></button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button type="button" class="btn btns" onclick="cj(this,6)" ><p>莹</p></button>
+				</td>
+				<td>
+					<button type="button" class="btn btns" onclick="cj(this,7)" ><p>吉</p></button>
+				</td>
+			</tr>
+		</table>
+		<div class="Ddiv" >
+			<p>已中的奖品</p>
+			<div class="Sdiv" >
+
 			</div>
 		</div>
-		<a href="index2.html" style="position: fixed;bottom: 50px;right: 50px;background: gray;height: 30px;color: #fff;line-height: 30px;" >&nbsp;点击跳转下个页面&nbsp;</a>
+		<p class="flootP" >*本活动最终解释权归提供抽奖方所有</p>
+			
+		</div>
+	
 	</body>
-	<script type="text/javascript" src="js/index.js" ></script>
+	<script src="jquery-1.11.2.min.js" ></script>
+	<script src="new_file.js" ></script>
 </html>

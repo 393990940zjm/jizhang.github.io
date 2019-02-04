@@ -1,0 +1,99 @@
+@font-face {
+	font-family: Vox-Regular2;
+	src: url(VOX_WIDE_BOLD.woff);
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background-image: url(5c26d55909fef.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.content{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+.headP{
+    width: 100%;
+    font-size: 140px;
+    text-align: center;
+    color: #FFC107;
+    font-family: KaiTi;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #090909;
+}
+
+table{
+	width: 100%;
+}
+table tr td:nth-child(odd){
+  text-align: center;
+  padding: 50px 15px 50px 50px;
+}
+table tr td:nth-child(even){
+  text-align: center;
+  padding: 50px 50px 50px 15px;
+}
+.btns{
+	
+	height: 200px;
+	width: 200px;
+	background-image: url(20190204200521.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 80px;
+	text-align: center;
+	line-height: 200px;
+	border:none;
+	border-radius: 10px;
+	font-family: Vox-Regular2;
+	transform: rotate(45deg);
+	box-shadow: 5px 5px 15px #000;
+}
+.btns p{
+	color: #ea110b;
+	 transform: rotate(-45deg);
+	 font-weight: bold;
+     text-shadow: 5px 5px 10px #313131;
+}
+.Ddiv{
+	width: 100%;
+	margin-top: 30px;
+}
+.Ddiv>p{
+	width: 100%;
+	font-size: 60px;
+	text-align: center;
+	color: yellow;
+	font-family: KaiTi;
+	font-weight: bold;
+    text-shadow: 5px 5px 5px #151515;
+}
+.Sdiv{
+	width: 100%;
+	font-family: KaiTi;
+	font-weight: bold;
+}
+.Sdiv p{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #ef1000;
+    text-shadow: 5px 5px 5px #000;
+    background: #ffffff7a;
+}
+.flootP{
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+	   font-weight: bold;
+    text-shadow: 5px 5px 5px #151515;
+}

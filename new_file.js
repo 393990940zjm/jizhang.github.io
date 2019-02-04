@@ -1,5 +1,7 @@
 //localStorage.clear();
-localStorage.cjcs=0;
+if(localStorage.cjcs==undefined){
+	localStorage.cjcs=0;
+}
 $(".Sdiv").html(localStorage.jp);
 
 var index = 0;

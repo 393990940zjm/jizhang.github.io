@@ -1,4 +1,4 @@
-localStorage.clear();
+//localStorage.clear();
 if(localStorage.cjcs==undefined){
 	localStorage.cjcs=0;
 }
